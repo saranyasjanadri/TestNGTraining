@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UI Tests">
+  <test  name="Functional Testing">
+    <classes>
+      <class name="testCases.VerifyTitleUsingAssert"/>
+      <class name="testCases.VerifyTitleAndTextUsingSoftAssert"/>
+      <class name="testCases.GroupingTestCases"/>
+      <class name="testCases.LoginTestWithAnnotations"/>
+      <class name="testCases.SkipTestcases"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

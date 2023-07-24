@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Reading browser details from testng xml">
+	<test name="ParametersTest1">
+		<parameter name="browser" value="chrome"/>
+		<parameter name="url"  value="https://www.saucedemo.com/"/>
+		<classes>
+			<class name="testCases.ParameterizationLoginTest" />
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	
+	<test name="ParametersTest2">
+		<parameter name="browser" value="firefox"/>
+		<parameter name="url"  value="https://www.saucedemo.com/"/>
+		<classes>
+			<class name="testCases.ParameterizationLoginTest" />
+		</classes>
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->

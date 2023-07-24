@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="0" failed="0" skipped="6">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-20T15:26:38 IST" name="Default suite" finished-at="2022-09-20T15:26:38 IST" duration-ms="234">
+    <groups>
+    </groups>
+    <test started-at="2022-09-20T15:26:38 IST" name="Default test" finished-at="2022-09-20T15:26:38 IST" duration-ms="234">
+      <class name="extentSparkReportingV5.DemoTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:extentSparkReportingV5.DemoTest@4d02f94e]" started-at="2022-09-20T15:26:38 IST" name="beforeTest" finished-at="2022-09-20T15:26:38 IST" duration-ms="198" status="FAIL">
+          <exception class="java.lang.ExceptionInInitializerError">
+            <full-stacktrace>
+              <![CDATA[java.lang.ExceptionInInitializerError
+at org.apache.log4j.Logger.getLogger(Logger.java:40)
+at freemarker.log._Log4jLoggerFactory.getLogger(_Log4jLoggerFactory.java:31)
+at freemarker.log.Logger.getLogger(Logger.java:362)
+at freemarker.template.Configuration.<clinit>(Configuration.java:151)
+at com.aventstack.extentreports.reporter.AbstractFileReporter.loadTemplateModel(AbstractFileReporter.java:54)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.start(ExtentSparkReporter.java:136)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.access$000(ExtentSparkReporter.java:27)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onSubscribe(ExtentSparkReporter.java:116)
+at io.reactivex.rxjava3.subjects.PublishSubject.subscribeActual(PublishSubject.java:133)
+at io.reactivex.rxjava3.core.Observable.subscribe(Observable.java:13099)
+at com.aventstack.extentreports.ReactiveSubject.attachReporter(ReactiveSubject.java:38)
+at com.aventstack.extentreports.ExtentReports.attachReporter(ExtentReports.java:66)
+at extentSparkReportingV5.DemoTest.beforeTest(DemoTest.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.apache.logging.log4j.LoggingException: log4j-slf4j-impl cannot be present with log4j-to-slf4j
+at org.apache.logging.slf4j.Log4jLoggerFactory.validateContext(Log4jLoggerFactory.java:71)
+at org.apache.logging.slf4j.Log4jLoggerFactory.newLogger(Log4jLoggerFactory.java:51)
+at org.apache.logging.slf4j.Log4jLoggerFactory.newLogger(Log4jLoggerFactory.java:33)
+at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:53)
+at org.apache.logging.slf4j.Log4jLoggerFactory.getLogger(Log4jLoggerFactory.java:33)
+at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:358)
+at org.apache.logging.slf4j.SLF4JLoggerContext.getLogger(SLF4JLoggerContext.java:36)
+at org.apache.log4j.Category.<init>(Category.java:176)
+at org.apache.log4j.Category.<init>(Category.java:192)
+at org.apache.log4j.Logger.<init>(Logger.java:57)
+at org.apache.log4j.spi.RootLogger.<init>(RootLogger.java:39)
+at org.apache.log4j.LogManager.<clinit>(LogManager.java:72)
+... 37 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ExceptionInInitializerError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="f1()[pri:0, instance:extentSparkReportingV5.DemoTest@4d02f94e]" started-at="2022-09-20T15:26:38 IST" name="f1" finished-at="2022-09-20T15:26:38 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.ExceptionInInitializerError">
+            <full-stacktrace>
+              <![CDATA[java.lang.ExceptionInInitializerError
+at org.apache.log4j.Logger.getLogger(Logger.java:40)
+at freemarker.log._Log4jLoggerFactory.getLogger(_Log4jLoggerFactory.java:31)
+at freemarker.log.Logger.getLogger(Logger.java:362)
+at freemarker.template.Configuration.<clinit>(Configuration.java:151)
+at com.aventstack.extentreports.reporter.AbstractFileReporter.loadTemplateModel(AbstractFileReporter.java:54)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.start(ExtentSparkReporter.java:136)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.access$000(ExtentSparkReporter.java:27)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onSubscribe(ExtentSparkReporter.java:116)
+at io.reactivex.rxjava3.subjects.PublishSubject.subscribeActual(PublishSubject.java:133)
+at io.reactivex.rxjava3.core.Observable.subscribe(Observable.java:13099)
+at com.aventstack.extentreports.ReactiveSubject.attachReporter(ReactiveSubject.java:38)
+at com.aventstack.extentreports.ExtentReports.attachReporter(ExtentReports.java:66)
+at extentSparkReportingV5.DemoTest.beforeTest(DemoTest.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.apache.logging.log4j.LoggingException: log4j-slf4j-impl cannot be present with log4j-to-slf4j
+at org.apache.logging.slf4j.Log4jLoggerFactory.validateContext(Log4jLoggerFactory.java:71)
+at org.apache.logging.slf4j.Log4jLoggerFactory.newLogger(Log4jLoggerFactory.java:51)
+at org.apache.logging.slf4j.Log4jLoggerFactory.newLogger(Log4jLoggerFactory.java:33)
+at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:53)
+at org.apache.logging.slf4j.Log4jLoggerFactory.getLogger(Log4jLoggerFactory.java:33)
+at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:358)
+at org.apache.logging.slf4j.SLF4JLoggerContext.getLogger(SLF4JLoggerContext.java:36)
+at org.apache.log4j.Category.<init>(Category.java:176)
+at org.apache.log4j.Category.<init>(Category.java:192)
+at org.apache.log4j.Logger.<init>(Logger.java:57)
+at org.apache.log4j.spi.RootLogger.<init>(RootLogger.java:39)
+at org.apache.log4j.LogManager.<clinit>(LogManager.java:72)
+... 37 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ExceptionInInitializerError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f2()[pri:0, instance:extentSparkReportingV5.DemoTest@4d02f94e]" started-at="2022-09-20T15:26:38 IST" name="f2" finished-at="2022-09-20T15:26:38 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.ExceptionInInitializerError">
+            <full-stacktrace>
+              <![CDATA[java.lang.ExceptionInInitializerError
+at org.apache.log4j.Logger.getLogger(Logger.java:40)
+at freemarker.log._Log4jLoggerFactory.getLogger(_Log4jLoggerFactory.java:31)
+at freemarker.log.Logger.getLogger(Logger.java:362)
+at freemarker.template.Configuration.<clinit>(Configuration.java:151)
+at com.aventstack.extentreports.reporter.AbstractFileReporter.loadTemplateModel(AbstractFileReporter.java:54)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.start(ExtentSparkReporter.java:136)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.access$000(ExtentSparkReporter.java:27)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onSubscribe(ExtentSparkReporter.java:116)
+at io.reactivex.rxjava3.subjects.PublishSubject.subscribeActual(PublishSubject.java:133)
+at io.reactivex.rxjava3.core.Observable.subscribe(Observable.java:13099)
+at com.aventstack.extentreports.ReactiveSubject.attachReporter(ReactiveSubject.java:38)
+at com.aventstack.extentreports.ExtentReports.attachReporter(ExtentReports.java:66)
+at extentSparkReportingV5.DemoTest.beforeTest(DemoTest.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.apache.logging.log4j.LoggingException: log4j-slf4j-impl cannot be present with log4j-to-slf4j
+at org.apache.logging.slf4j.Log4jLoggerFactory.validateContext(Log4jLoggerFactory.java:71)
+at org.apache.logging.slf4j.Log4jLoggerFactory.newLogger(Log4jLoggerFactory.java:51)
+at org.apache.logging.slf4j.Log4jLoggerFactory.newLogger(Log4jLoggerFactory.java:33)
+at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:53)
+at org.apache.logging.slf4j.Log4jLoggerFactory.getLogger(Log4jLoggerFactory.java:33)
+at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:358)
+at org.apache.logging.slf4j.SLF4JLoggerContext.getLogger(SLF4JLoggerContext.java:36)
+at org.apache.log4j.Category.<init>(Category.java:176)
+at org.apache.log4j.Category.<init>(Category.java:192)
+at org.apache.log4j.Logger.<init>(Logger.java:57)
+at org.apache.log4j.spi.RootLogger.<init>(RootLogger.java:39)
+at org.apache.log4j.LogManager.<clinit>(LogManager.java:72)
+... 37 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ExceptionInInitializerError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+        <test-method signature="f3()[pri:0, instance:extentSparkReportingV5.DemoTest@4d02f94e]" started-at="2022-09-20T15:26:38 IST" name="f3" finished-at="2022-09-20T15:26:38 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.ExceptionInInitializerError">
+            <full-stacktrace>
+              <![CDATA[java.lang.ExceptionInInitializerError
+at org.apache.log4j.Logger.getLogger(Logger.java:40)
+at freemarker.log._Log4jLoggerFactory.getLogger(_Log4jLoggerFactory.java:31)
+at freemarker.log.Logger.getLogger(Logger.java:362)
+at freemarker.template.Configuration.<clinit>(Configuration.java:151)
+at com.aventstack.extentreports.reporter.AbstractFileReporter.loadTemplateModel(AbstractFileReporter.java:54)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.start(ExtentSparkReporter.java:136)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.access$000(ExtentSparkReporter.java:27)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onSubscribe(ExtentSparkReporter.java:116)
+at io.reactivex.rxjava3.subjects.PublishSubject.subscribeActual(PublishSubject.java:133)
+at io.reactivex.rxjava3.core.Observable.subscribe(Observable.java:13099)
+at com.aventstack.extentreports.ReactiveSubject.attachReporter(ReactiveSubject.java:38)
+at com.aventstack.extentreports.ExtentReports.attachReporter(ExtentReports.java:66)
+at extentSparkReportingV5.DemoTest.beforeTest(DemoTest.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.apache.logging.log4j.LoggingException: log4j-slf4j-impl cannot be present with log4j-to-slf4j
+at org.apache.logging.slf4j.Log4jLoggerFactory.validateContext(Log4jLoggerFactory.java:71)
+at org.apache.logging.slf4j.Log4jLoggerFactory.newLogger(Log4jLoggerFactory.java:51)
+at org.apache.logging.slf4j.Log4jLoggerFactory.newLogger(Log4jLoggerFactory.java:33)
+at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:53)
+at org.apache.logging.slf4j.Log4jLoggerFactory.getLogger(Log4jLoggerFactory.java:33)
+at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:358)
+at org.apache.logging.slf4j.SLF4JLoggerContext.getLogger(SLF4JLoggerContext.java:36)
+at org.apache.log4j.Category.<init>(Category.java:176)
+at org.apache.log4j.Category.<init>(Category.java:192)
+at org.apache.log4j.Logger.<init>(Logger.java:57)
+at org.apache.log4j.spi.RootLogger.<init>(RootLogger.java:39)
+at org.apache.log4j.LogManager.<clinit>(LogManager.java:72)
+... 37 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ExceptionInInitializerError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f3 -->
+        <test-method signature="f4()[pri:0, instance:extentSparkReportingV5.DemoTest@4d02f94e]" started-at="2022-09-20T15:26:38 IST" name="f4" finished-at="2022-09-20T15:26:38 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.ExceptionInInitializerError">
+            <full-stacktrace>
+              <![CDATA[java.lang.ExceptionInInitializerError
+at org.apache.log4j.Logger.getLogger(Logger.java:40)
+at freemarker.log._Log4jLoggerFactory.getLogger(_Log4jLoggerFactory.java:31)
+at freemarker.log.Logger.getLogger(Logger.java:362)
+at freemarker.template.Configuration.<clinit>(Configuration.java:151)
+at com.aventstack.extentreports.reporter.AbstractFileReporter.loadTemplateModel(AbstractFileReporter.java:54)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.start(ExtentSparkReporter.java:136)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.access$000(ExtentSparkReporter.java:27)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onSubscribe(ExtentSparkReporter.java:116)
+at io.reactivex.rxjava3.subjects.PublishSubject.subscribeActual(PublishSubject.java:133)
+at io.reactivex.rxjava3.core.Observable.subscribe(Observable.java:13099)
+at com.aventstack.extentreports.ReactiveSubject.attachReporter(ReactiveSubject.java:38)
+at com.aventstack.extentreports.ExtentReports.attachReporter(ExtentReports.java:66)
+at extentSparkReportingV5.DemoTest.beforeTest(DemoTest.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.apache.logging.log4j.LoggingException: log4j-slf4j-impl cannot be present with log4j-to-slf4j
+at org.apache.logging.slf4j.Log4jLoggerFactory.validateContext(Log4jLoggerFactory.java:71)
+at org.apache.logging.slf4j.Log4jLoggerFactory.newLogger(Log4jLoggerFactory.java:51)
+at org.apache.logging.slf4j.Log4jLoggerFactory.newLogger(Log4jLoggerFactory.java:33)
+at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:53)
+at org.apache.logging.slf4j.Log4jLoggerFactory.getLogger(Log4jLoggerFactory.java:33)
+at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:358)
+at org.apache.logging.slf4j.SLF4JLoggerContext.getLogger(SLF4JLoggerContext.java:36)
+at org.apache.log4j.Category.<init>(Category.java:176)
+at org.apache.log4j.Category.<init>(Category.java:192)
+at org.apache.log4j.Logger.<init>(Logger.java:57)
+at org.apache.log4j.spi.RootLogger.<init>(RootLogger.java:39)
+at org.apache.log4j.LogManager.<clinit>(LogManager.java:72)
+... 37 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ExceptionInInitializerError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f4 -->
+        <test-method signature="f5()[pri:0, instance:extentSparkReportingV5.DemoTest@4d02f94e]" started-at="2022-09-20T15:26:38 IST" name="f5" finished-at="2022-09-20T15:26:38 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.ExceptionInInitializerError">
+            <full-stacktrace>
+              <![CDATA[java.lang.ExceptionInInitializerError
+at org.apache.log4j.Logger.getLogger(Logger.java:40)
+at freemarker.log._Log4jLoggerFactory.getLogger(_Log4jLoggerFactory.java:31)
+at freemarker.log.Logger.getLogger(Logger.java:362)
+at freemarker.template.Configuration.<clinit>(Configuration.java:151)
+at com.aventstack.extentreports.reporter.AbstractFileReporter.loadTemplateModel(AbstractFileReporter.java:54)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.start(ExtentSparkReporter.java:136)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.access$000(ExtentSparkReporter.java:27)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onSubscribe(ExtentSparkReporter.java:116)
+at io.reactivex.rxjava3.subjects.PublishSubject.subscribeActual(PublishSubject.java:133)
+at io.reactivex.rxjava3.core.Observable.subscribe(Observable.java:13099)
+at com.aventstack.extentreports.ReactiveSubject.attachReporter(ReactiveSubject.java:38)
+at com.aventstack.extentreports.ExtentReports.attachReporter(ExtentReports.java:66)
+at extentSparkReportingV5.DemoTest.beforeTest(DemoTest.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.apache.logging.log4j.LoggingException: log4j-slf4j-impl cannot be present with log4j-to-slf4j
+at org.apache.logging.slf4j.Log4jLoggerFactory.validateContext(Log4jLoggerFactory.java:71)
+at org.apache.logging.slf4j.Log4jLoggerFactory.newLogger(Log4jLoggerFactory.java:51)
+at org.apache.logging.slf4j.Log4jLoggerFactory.newLogger(Log4jLoggerFactory.java:33)
+at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:53)
+at org.apache.logging.slf4j.Log4jLoggerFactory.getLogger(Log4jLoggerFactory.java:33)
+at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:358)
+at org.apache.logging.slf4j.SLF4JLoggerContext.getLogger(SLF4JLoggerContext.java:36)
+at org.apache.log4j.Category.<init>(Category.java:176)
+at org.apache.log4j.Category.<init>(Category.java:192)
+at org.apache.log4j.Logger.<init>(Logger.java:57)
+at org.apache.log4j.spi.RootLogger.<init>(RootLogger.java:39)
+at org.apache.log4j.LogManager.<clinit>(LogManager.java:72)
+... 37 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ExceptionInInitializerError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f5 -->
+        <test-method signature="f6()[pri:0, instance:extentSparkReportingV5.DemoTest@4d02f94e]" started-at="2022-09-20T15:26:38 IST" name="f6" finished-at="2022-09-20T15:26:38 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.ExceptionInInitializerError">
+            <full-stacktrace>
+              <![CDATA[java.lang.ExceptionInInitializerError
+at org.apache.log4j.Logger.getLogger(Logger.java:40)
+at freemarker.log._Log4jLoggerFactory.getLogger(_Log4jLoggerFactory.java:31)
+at freemarker.log.Logger.getLogger(Logger.java:362)
+at freemarker.template.Configuration.<clinit>(Configuration.java:151)
+at com.aventstack.extentreports.reporter.AbstractFileReporter.loadTemplateModel(AbstractFileReporter.java:54)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.start(ExtentSparkReporter.java:136)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.access$000(ExtentSparkReporter.java:27)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onSubscribe(ExtentSparkReporter.java:116)
+at io.reactivex.rxjava3.subjects.PublishSubject.subscribeActual(PublishSubject.java:133)
+at io.reactivex.rxjava3.core.Observable.subscribe(Observable.java:13099)
+at com.aventstack.extentreports.ReactiveSubject.attachReporter(ReactiveSubject.java:38)
+at com.aventstack.extentreports.ExtentReports.attachReporter(ExtentReports.java:66)
+at extentSparkReportingV5.DemoTest.beforeTest(DemoTest.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.apache.logging.log4j.LoggingException: log4j-slf4j-impl cannot be present with log4j-to-slf4j
+at org.apache.logging.slf4j.Log4jLoggerFactory.validateContext(Log4jLoggerFactory.java:71)
+at org.apache.logging.slf4j.Log4jLoggerFactory.newLogger(Log4jLoggerFactory.java:51)
+at org.apache.logging.slf4j.Log4jLoggerFactory.newLogger(Log4jLoggerFactory.java:33)
+at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:53)
+at org.apache.logging.slf4j.Log4jLoggerFactory.getLogger(Log4jLoggerFactory.java:33)
+at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:358)
+at org.apache.logging.slf4j.SLF4JLoggerContext.getLogger(SLF4JLoggerContext.java:36)
+at org.apache.log4j.Category.<init>(Category.java:176)
+at org.apache.log4j.Category.<init>(Category.java:192)
+at org.apache.log4j.Logger.<init>(Logger.java:57)
+at org.apache.log4j.spi.RootLogger.<init>(RootLogger.java:39)
+at org.apache.log4j.LogManager.<clinit>(LogManager.java:72)
+... 37 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ExceptionInInitializerError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f6 -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:extentSparkReportingV5.DemoTest@4d02f94e]" started-at="2022-09-20T15:26:38 IST" name="afterTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1663667798831" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- extentSparkReportingV5.DemoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
